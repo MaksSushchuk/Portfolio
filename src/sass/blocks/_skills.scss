@@ -1,0 +1,33 @@
+.skills {
+    padding-top: 120px;
+    &__items {
+        margin-top: 60px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    &__item {
+        margin: 15px;
+        max-width: 270px;
+        border: 1px solid black;
+        padding: 30px 30px 25px 30px;
+        &-img {
+            display: flex;
+            align-items: center;
+            width: 60px;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    
+}

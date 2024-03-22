@@ -1,0 +1,18 @@
+.portfolio {
+    padding-top: 160px;
+    &__wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin: 10px;
+        transition: all 0.6s;
+        img { 
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
