@@ -327,32 +327,8 @@
                 <div class="contacts__descr">
 
                     <h2 class="title title_fz16 contacts__title">Leave an application</h2>
-                    <!-- <form action="#" class="application__form">
-                        <div class="contacts__input">
-                            <input required name="name" id="name" type="text">
-                            <label for="name">Ваше имя</label>
-                        </div>
-                        <div class="contacts__input">
-                            <input required name="email" id="email" type="email">
-                            <label for="email">Ваша почта</label>
-                        </div>
-
-                        <div class="contacts__textarea">
-                            <textarea name="text" id="text"></textarea>
-                            <label for="text">Ваше сообщение</label>
-                        </div>
-                        <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
-                            <div class="contacts__policy">
-                                <input required type="checkbox">
-                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
-                            </div>
-                        </div>
-                    </form> -->
-
+                                                                                        
                     <form id="surveyForm" class="application__form">
-                        
-
                         <div class="form-group">
                             <label for="faculty" class="form-label">На якому факультеті ви навчаєтесь:</label>
                             <select id="faculty" name="faculty" class="form-control">
@@ -375,57 +351,62 @@
                             </div>
                             <div class="form-check">
                                 <input type="radio" id="stream3" name="stream" value="3" class="form-check-input">
-                                <label for="stream3" class="form-check-label">Потік 3</label>
+                                <label for="stream3" class="form-check-label">П</label>
                             </div>
-                        </div>
-                
-                        <div class="form-group">
-                            <p class="form-label">Вкажіть групу:</p>
-                            <div class="form-check">
-                                <input type="checkbox" id="group1" name="group1" value="A" class="form-check-input">
-                                <label for="group1" class="form-check-label"> Група А</label>
+                            <div class="form-group">
+                                <p class="form-label">Вкажіть групу:</p>
+                                <div class="form-check">
+                                    <input type="checkbox" id="group1" name="group1" value="A" class="form-check-input">
+                                    <label for="group1" class="form-check-label">Група А</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="group2" name="group2" value="B" class="form-check-input">
+                                    <label for="group2" class="form-check-label">Група Б</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="group3" name="group3" value="C" class="form-check-input">
+                                    <label for="group3" class="form-check-label">Група В</label>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input type="checkbox" id="group2" name="group2" value="B" class="form-check-input">
-                                <label for="group2" class="form-check-label"> Група Б</label>
+                        
+                            <div class="form-group">
+                                <label for="interviewDate" class="form-label">Виберіть зручний день для проходження співбесіди:</label>
+                                <input type="date" id="interviewDate" name="interviewDate" class="form-control">
                             </div>
-                            <div class="form-check">
-                                <input type="checkbox" id="group3" name="group3" value="C" class="form-check-input">
-                                <label for="group3" class="form-check-label"> Група В</label>
+                        
+                            <div class="form-group">
+                                <label for="interviewTime" class="form-label">Виберіть зручний час для проходження співбесіди:</label>
+                                <input type="time" id="interviewTime" name="interviewTime" class="form-control">
                             </div>
-                        </div>
-                
-                        <div class="">
-                            <label for="interviewDate" class="form-label">Виберіть зручний день для проходження співбесіди:</label>
-                            <input type="date" id="interviewDate" name="interviewDate" class="form-control">
-                        </div>
-                
-                        <div class="">
-                            <label for="interviewTime" class="form-label">Виберіть зручний час для проходження співбесіди:</label>
-                            <input type="time" id="interviewTime" name="interviewTime" class="form-control">
-                        </div>
-                
-                        <div class="">
-                            <label for="interviewWeek" class="form-label">Виберіть тиждень для проходження співбесіди:</label>
-                            <input type="week" id="interviewWeek" name="interviewWeek" class="form-control">
-                        </div>
-                
-                        <div class="application__input">
-                            <label for="averageScore" class="form-label">Вкажіть середній бал:</label>
-                            <input type="number" id="averageScore" name="averageScore" class="form-control">
-                        </div>
-                
-                        <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
+                        
+                            <div class="form-group">
+                                <label for="interviewWeek" class="form-label">Виберіть тиждень для проходження співбесіди:</label>
+                                <input type="week" id="interviewWeek" name="interviewWeek" class="form-control">
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="averageScore" class="form-label">Вкажіть середній бал:</label>
+                                <input type="number" id="averageScore" name="averageScore" class="form-control">
+                            </div>
+                        
+                            <div class="contacts__triggers">
+                                <button type="submit" class="contacts__btn btn">Відправити</button>
+                            </div>
+                        
                             <div class="contacts__policy">
-                                <input required type="checkbox">
-                                <span>Я согласен(а) с <a href="/police.html">политикой конфиденциальности</a></span>
+                                <input required type="checkbox" id="agree">
+                                <label for="agree">Я згідний(а) з <a href="/policy.html">політикою конфіденційності</a></label>
                             </div>
-                        </div>
-                    </form>
-                                    
-                 
+                        </form>
                 </div>
+                <div id="testContainer"></div>
+                <button id="submitTest">Перевірити відповіді</button>
+                <div id="testResult"></div>
+                <br>
+                <button id="filterByFacultyBtn">Фільтрувати за факультетом</button>
+                <button id="filterByDateTimeBtn">Фільтрувати за датою та часом</button>
+                <button id="filterByScoreBtn">Фільтрувати за середнім балом</button>
+
             </div>
         </div>
     </div>
@@ -458,5 +439,6 @@
         </div>
     </div>
     <script src="js/script.js"></script>
+    <script src="js/lab_2_2.js"></script>
 </body>
 </html>
